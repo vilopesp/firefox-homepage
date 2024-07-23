@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Rei',
+	name: 'Vitória',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '288752458e9b0130f398aa44af330a02', // Write here your API Key
-	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '6a552f55e7be02c8a8ba440d5d915028', // Write here your API Key
+	weatherIcons: 'Onedark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '34.049',
-	defaultLongitude: '74.392',
+	defaultLatitude: '-23.164490',
+	defaultLongitude: '-47.744148',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -53,40 +53,41 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
+			name: 'Whatsapp',
+			icon: 'message-circle-more',
+			link: 'https://web.whatsapp.com/',
+		},
+		{
+			id: '2',
 			name: 'Github',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
-			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://gmail.com/',
-		},
-		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Rocketseat',
+			icon: 'rocket',
+			link: 'https://biblioteca.rocketseat.com.br/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '6',
 			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
+		{
+			id: '5',
+			name: 'FrontEnd Editor',
+			icon: 'code',
+			link: 'https://www.fronteditor.dev/',
+		},
+		{
+			id: '6',
+			name: 'JS Docs',
+			icon: 'file-code-2',
+			link: 'https://devdocs.io/javascript/',
+		},
+		
 	],
 
 	secondButtonsContainer: [
@@ -135,24 +136,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'figma',
 			id: '1',
 			links: [
 				{
-					name: 'Kren',
-					link: 'https://www.youtube.com/playlist?list=PLgF_gQh7OwJzwtN08b5oQ_-s3uZ6IsLp-',
+					name: 'Figma',
+					link: 'https://www.figma.com/files/team/1293302539877543735/recents-and-sharing/recently-viewed?fuid=784492383687760676',
 				},
 				{
-					name: 'Underrated',
-					link: 'https://www.youtube.com/playlist?list=PLWTjjEmzNQCvKwhXmedIRmxXU-nUy7XIi',
+					name: 'Notion',
+					link: 'https://www.notion.so/vailop/fc0bfd864c78463c8cb01e03ecea6aed?v=a7c42f68f5be42ffb436b8ed8e6a94fc',
 				},
 				{
-					name: 'Japanese',
-					link: 'https://www.youtube.com/playlist?list=PLWTjjEmzNQCt67v5-tO3_sA6sCaepg5I-',
+					name: 'Codepen',
+					link: 'https://codepen.io/trending',
 				},
 				{
-					name: 'Lofi',
-					link: 'https://www.youtube.com/live/lHpYyYtkmrw?si=Cv6wNnDWWhJGlL65',
+					name: 'Frontend Mentor',
+					link: 'https://www.frontendmentor.io/challenges',
 				},
 			],
 		},
@@ -161,20 +162,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Dev Community',
+					link: 'https://dev.to/top/week',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'CSS Tricks',
+					link: 'https://css-tricks.com/',
 				},
 				{
-					name: 'X',
-					link: 'https://www.x.com',
+					name: 'FreeCodeCamp',
+					link: 'https://www.freecodecamp.org/learn/?messages=success%5B0%5D%3Dflash.signin-success',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'NixOS Packages',
+					link: 'https://search.nixos.org/packages',
 				},
 			],
 		},
